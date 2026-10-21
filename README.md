@@ -68,6 +68,11 @@ berbasis Laravel dengan kalkulator angsuran multi-tenor, suku bunga 0,5–3% per
 mengikuti ketentuan OJK, denda keterlambatan harian, dan perhitungan bunga efektif tahunan.
 Menerapkan autentikasi dua peran dengan pembatasan akses berlapis.
 
+[Waktu Sholat](https://atmajadesna.github.io/waktu-sholat/) — jadwal sholat yang dihitung
+sendiri dari posisi matahari (deklinasi dan persamaan waktu), bukan diambil dari API.
+Hasilnya sama dengan jadwal Kemenag sampai ke menit. Dilengkapi pengingat adzan, lafaz Subuh
+“ash-shalatu khairun minan-naum”, kompas kiblat dengan penanda Ka'bah, dan tasbih digital.
+
 <br>
 
 ## Teknologi
