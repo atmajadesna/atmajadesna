@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 630" width="1280" height="630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0f1317"/>
+      <stop offset="1" stop-color="#1c2229"/>
+    </linearGradient>
+    <pattern id="p" width="44" height="44" patternUnits="userSpaceOnUse">
+      <path d="M44 0H0V44" fill="none" stroke="#fff" stroke-opacity="0.05" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1280" height="630" fill="url(#g)"/>
+  <rect width="1280" height="630" fill="url(#p)"/>
+  <rect x="0" y="0" width="1280" height="6" fill="#e8a33d"/>
+
+  <g font-family="'Segoe UI', 'Helvetica Neue', Arial, sans-serif">
+    <text x="88" y="196" fill="#e8a33d" font-size="20" font-weight="700" letter-spacing="6">GITHUB · ATMAJADESNA</text>
+    <text x="88" y="300" fill="#f6f7f9" font-size="72" font-weight="800" letter-spacing="-2">Atmaja Desna Adinata</text>
+    <text x="88" y="368" fill="#a3acb6" font-size="30">Web developer &amp; data — Surakarta, Indonesia</text>
+    <rect x="88" y="424" width="120" height="4" fill="#e8a33d"/>
+    <text x="88" y="500" fill="#cfd5dc" font-size="24">Laravel · JavaScript · MySQL · UI</text>
+    <text x="88" y="548" fill="#8b949e" font-size="21">atmajadesna.github.io</text>
+  </g>
+</svg>
