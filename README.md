@@ -4,67 +4,73 @@
 
 <br>
 
-Mahasiswa Teknik Informatika di **STMIK Amikom Surakarta**. Gw lebih sering bikin aplikasi
-yang punya alur, hitungan, dan data — bukan halaman yang cuma bagus di screenshot.
+Mahasiswa Program Studi Teknik Informatika, **STMIK Amikom Surakarta**. Fokus pada
+pengembangan aplikasi web yang memiliki alur kerja, perhitungan, dan pengelolaan data —
+bukan sekadar tampilan.
 
-Tiga hal yang gw kejar di tiap project: **hitungannya benar**, **enak dipakai di HP**,
-dan **bisa gw jelaskan** — kenapa dibuat begitu, bukan cuma karena bisa.
+Tiga hal yang saya pegang pada setiap proyek: **ketepatan perhitungan**, **kenyamanan
+penggunaan di perangkat seluler**, dan **kejelasan alasan teknis** di balik setiap
+keputusan perancangan.
 
 <br>
 
-## Project pilihan
+## Proyek Pilihan
 
 <table>
 <tr>
 <td width="50%" valign="top">
   <a href="https://atmajadesna.github.io/atmajacar/"><img src="assets/atmajacar.jpg" alt="AtmajaCar" width="100%"></a>
-  <h3>AtmajaCar — rental mobil</h3>
-  <p>Cek ketersediaan per tanggal: unit yang sudah dipesan di rentang itu otomatis tidak bisa
-  dipilih. Rincian biaya terbuka (supir, antar-jemput, asuransi, deposit), panel kelola untuk
-  mengubah status pesanan.</p>
+  <h3>AtmajaCar — Rental Mobil</h3>
+  <p>Pemeriksaan ketersediaan unit berdasarkan rentang tanggal: kendaraan yang telah dipesan
+  pada rentang tersebut otomatis tidak dapat dipilih. Rincian biaya ditampilkan secara terbuka
+  (supir, antar-jemput, asuransi, deposit), disertai panel pengelolaan status pesanan.</p>
   <p><code>JavaScript</code> <code>SVG</code> <code>LocalStorage</code></p>
-  <p><a href="https://atmajadesna.github.io/atmajacar/"><b>Coba langsung →</b></a> ·
-  <a href="https://github.com/atmajadesna/atmajacar">Kode</a></p>
+  <p><a href="https://atmajadesna.github.io/atmajacar/"><b>Buka aplikasi →</b></a> ·
+  <a href="https://github.com/atmajadesna/atmajacar">Kode sumber</a></p>
 </td>
 <td width="50%" valign="top">
   <a href="https://atmajadesna.github.io/absen-qr/"><img src="assets/absen-qr.jpg" alt="Absen QR" width="100%"></a>
-  <h3>Absen QR — absensi kelas</h3>
-  <p>Kode 6 karakter yang berputar tiap 30 detik, diturunkan lewat HMAC-SHA256 dari kunci sesi.
-  Kode yang difoto lalu dikirim ke teman sudah kedaluwarsa sebelum sempat dipakai.</p>
+  <h3>Absen QR — Presensi Kelas</h3>
+  <p>Kode presensi enam karakter yang diperbarui setiap 30 detik, diturunkan melalui
+  HMAC-SHA256 dari kunci sesi. Kode yang difoto lalu dikirimkan kepada pihak lain telah
+  kedaluwarsa sebelum sempat digunakan.</p>
   <p><code>Web Crypto</code> <code>HMAC</code> <code>QR</code></p>
-  <p><a href="https://atmajadesna.github.io/absen-qr/"><b>Coba langsung →</b></a> ·
-  <a href="https://github.com/atmajadesna/absen-qr">Kode</a></p>
+  <p><a href="https://atmajadesna.github.io/absen-qr/"><b>Buka aplikasi →</b></a> ·
+  <a href="https://github.com/atmajadesna/absen-qr">Kode sumber</a></p>
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
   <a href="https://atmajadesna.github.io/patungan/"><img src="assets/patungan.jpg" alt="Patungan" width="100%"></a>
-  <h3>Patungan — bagi tagihan</h3>
-  <p>Pajak dan service dibagi proporsional sesuai pesanan, sisa pembulatan dibagi dengan
-  <em>largest remainder</em> supaya jumlah semua orang pas sampai rupiah terakhir.</p>
+  <h3>Patungan — Pembagian Tagihan</h3>
+  <p>Pajak dan biaya layanan dibagi secara proporsional sesuai pesanan masing-masing,
+  sedangkan sisa pembulatan dialokasikan dengan metode <em>largest remainder</em> sehingga
+  jumlah seluruh bagian tepat sama dengan total tagihan.</p>
   <p><code>JavaScript</code> <code>Algoritma</code> <code>LocalStorage</code></p>
-  <p><a href="https://atmajadesna.github.io/patungan/"><b>Coba langsung →</b></a> ·
-  <a href="https://github.com/atmajadesna/patungan">Kode</a></p>
+  <p><a href="https://atmajadesna.github.io/patungan/"><b>Buka aplikasi →</b></a> ·
+  <a href="https://github.com/atmajadesna/patungan">Kode sumber</a></p>
 </td>
 <td width="50%" valign="top">
   <a href="https://atmajadesna.github.io/jadwal-kuliah/"><img src="assets/jadwal-kuliah.jpg" alt="Jadwal Kuliah" width="100%"></a>
   <h3>Jadwal Kuliah</h3>
-  <p>Grid mingguan Senin–Sabtu dengan deteksi bentrok jam <em>dan</em> ruang. Blok yang
-  bertabrakan langsung ditandai, total SKS dihitung otomatis.</p>
+  <p>Grid jadwal mingguan Senin–Sabtu dengan pendeteksian benturan jam <em>dan</em> ruang.
+  Blok yang bertabrakan ditandai secara otomatis, sementara total SKS dihitung dari mata
+  kuliah yang aktif.</p>
   <p><code>CSS Grid</code> <code>Interval</code> <code>LocalStorage</code></p>
-  <p><a href="https://atmajadesna.github.io/jadwal-kuliah/"><b>Coba langsung →</b></a> ·
-  <a href="https://github.com/atmajadesna/jadwal-kuliah">Kode</a></p>
+  <p><a href="https://atmajadesna.github.io/jadwal-kuliah/"><b>Buka aplikasi →</b></a> ·
+  <a href="https://github.com/atmajadesna/jadwal-kuliah">Kode sumber</a></p>
 </td>
 </tr>
 </table>
 
-**Juga:** [Pinjam Sehat](https://pinjamsehat.laura.web.id) — sistem pinjaman Laravel dengan
-kalkulator angsuran multi-tenor, bunga 0,5–3% per bulan mengikuti aturan OJK, denda harian,
-dan bunga efektif tahunan. Login dua peran dengan pembatasan akses berlapis.
+**Proyek lainnya:** [Pinjam Sehat](https://pinjamsehat.laura.web.id) — sistem pinjaman
+berbasis Laravel dengan kalkulator angsuran multi-tenor, suku bunga 0,5–3% per bulan
+mengikuti ketentuan OJK, denda keterlambatan harian, dan perhitungan bunga efektif tahunan.
+Menerapkan autentikasi dua peran dengan pembatasan akses berlapis.
 
 <br>
 
-## Perkakas
+## Teknologi
 
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
@@ -77,19 +83,20 @@ dan bunga efektif tahunan. Login dua peran dengan pembatasan akses berlapis.
 
 <br>
 
-## Cara gw kerja
+## Pendekatan Kerja
 
-- **Baca masalahnya dulu.** Sebelum nulis kode, gw tulis dulu aturannya di kertas: apa yang
-  dihitung, dari mana angkanya, kapan dianggap salah.
-- **Hitung manual sebelum percaya aplikasi.** Bunga, pembulatan, denda — gw hitung sendiri
-  pakai kalkulator, baru hasil aplikasi gw bandingkan.
-- **Tes di layar sempit duluan.** Kalau di 320px masih rapi, di laptop hampir pasti aman.
+- **Memahami masalah sebelum menulis kode.** Aturan perhitungan dirumuskan lebih dahulu:
+  besaran apa yang dihitung, dari mana sumber angkanya, dan kondisi apa yang dinyatakan salah.
+- **Verifikasi manual sebelum mempercayai aplikasi.** Perhitungan bunga, pembulatan, dan denda
+  dihitung terpisah menggunakan kalkulator, kemudian hasilnya dibandingkan dengan keluaran sistem.
+- **Pengujian pada layar sempit lebih dahulu.** Apabila tata letak tetap terbaca pada lebar
+  320 piksel, tampilan pada layar yang lebih besar umumnya ikut terjaga.
 
 <br>
 
 ## Kontak
 
 - Portofolio: **[atmajadesna.github.io](https://atmajadesna.github.io)**
-- Email: **atmajadesna [at] gmail [dot] com**
+- Surel: **atmajadesna [at] gmail [dot] com**
 
-<sub>Semua project di atas bisa dibuka langsung di browser — tidak perlu install apa pun.</sub>
+<sub>Seluruh proyek di atas dapat dijalankan langsung melalui peramban tanpa pemasangan tambahan.</sub>
