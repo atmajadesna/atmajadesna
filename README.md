@@ -78,6 +78,11 @@ lima alat gambar, riwayat 60 langkah, cermin kiri–kanan, galeri di perangkat, 
 tanpa pengaburan. Garis memakai Bresenham dan isi area memakai tumpukan eksplisit; tanpa
 pustaka dan tanpa peladen.
 
+[SIMRS Atmaja](https://atmajadesna.github.io/simrs-atmaja/) — simulasi alur rawat jalan
+rumah sakit: pendaftaran dengan nomor antrean per poli, papan panggilan, rekam medis dengan
+diagnosa ICD-10, farmasi yang mengurangi stok saat resep diserahkan, dan kasir dengan
+penjamin BPJS, asuransi, atau umum. Seluruh layar membaca satu sumber data.
+
 <br>
 
 ## Teknologi
