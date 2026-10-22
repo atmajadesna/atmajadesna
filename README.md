@@ -73,6 +73,11 @@ sendiri dari posisi matahari (deklinasi dan persamaan waktu), bukan diambil dari
 Hasilnya sama dengan jadwal Kemenag sampai ke menit. Dilengkapi pengingat adzan, lafaz Subuh
 “ash-shalatu khairun minan-naum”, kompas kiblat dengan penanda Ka'bah, dan tasbih digital.
 
+[Piksel](https://atmajadesna.github.io/piksel/) — editor piksel 32×32 di peramban dengan
+lima alat gambar, riwayat 60 langkah, cermin kiri–kanan, galeri di perangkat, dan ekspor PNG
+tanpa pengaburan. Garis memakai Bresenham dan isi area memakai tumpukan eksplisit; tanpa
+pustaka dan tanpa peladen.
+
 <br>
 
 ## Teknologi
