@@ -83,6 +83,11 @@ rumah sakit: pendaftaran dengan nomor antrean per poli, papan panggilan, rekam m
 diagnosa ICD-10, farmasi yang mengurangi stok saat resep diserahkan, dan kasir dengan
 penjamin BPJS, asuransi, atau umum. Seluruh layar membaca satu sumber data.
 
+[Dheline Caffe](https://atmajadesna.github.io/dheline-caffe/) — situs promosi kedai kopi
+fiktif di Wonogiri: tujuh menu kopi, tiap menu membuka galeri foto yang bisa digeser dengan
+jari, panah, titik, atau tombol papan tombol. Tanpa keranjang dan tanpa tombol pesan —
+hanya cerita kedai, suasana, kontak, dan alamat.
+
 <br>
 
 ## Teknologi
