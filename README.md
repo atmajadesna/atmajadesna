@@ -46,7 +46,6 @@ Weekly class scheduler with time and room conflict detection and credit totals.
 - [Pinjam Sehat](https://github.com/atmajadesna/pinjam-sehat): Laravel loan-management prototype. Not financial advice or a claim of regulatory certification.
 - [Sistem Gadai](https://github.com/atmajadesna/sistem-gadai): Laravel pawn-management prototype.
 - [Solanapay](https://github.com/atmajadesna/solanapay): digital-wallet simulation; no real funds.
-- [Kantor Desna](https://github.com/atmajadesna/kantor-desna): interactive virtual-office visual prototype.
 
 ## Tools I work with
 
