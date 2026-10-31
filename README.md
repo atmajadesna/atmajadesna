@@ -1,66 +1,87 @@
-# Atmaja Desna Adinata
+<img src="assets/banner.svg" width="100%" alt="Atmaja Desna Adinata — Practical applications. Thoughtful engineering." />
 
-Informatics student at **STMIK Amikom Surakarta**, exploring web development, application workflows, and data management.
+# Web development, grounded in real workflows.
 
-I build practical prototypes with attention to readable interfaces, clear calculations, and usable mobile layouts.
+I'm **Atmaja Desna Adinata**, an Informatics student at **STMIK Amikom Surakarta**, Indonesia. I build web applications that turn everyday workflows into clear interfaces and traceable calculations.
 
-[Portfolio](https://atmajadesna.github.io) · [Repositories](https://github.com/atmajadesna?tab=repositories)
+My focus is **PHP / Laravel**, **JavaScript**, and **relational data** — from inventory records to booking logic and financial calculations.
 
-## Selected projects
+**[Explore my portfolio →](https://atmajadesna.github.io)** &nbsp; · &nbsp; [Browse repositories](https://github.com/atmajadesna?tab=repositories)
 
-### AtmajaCar
+---
 
-![AtmajaCar rental prototype](assets/atmajacar.jpg)
+## Selected work
 
-Car rental prototype with date-range availability, optional extras, itemized pricing, and local booking management. No real payments or reservations.
+### 01 / Stokara
+**Inventory & sales · Laravel · SQLite**
 
-[Try demo](https://atmajadesna.github.io/atmajacar/) · [Source and limitations](https://github.com/atmajadesna/atmajacar)
+An inventory and sales ledger for small businesses, with batch stock tracking, FIFO cost allocation, and gross-profit calculations.
 
-### Absen QR
+**Engineering focus:** connecting stock movements to cost allocation, so the calculation behind a sale can be followed rather than hidden behind a total.
 
-![Absen QR attendance prototype](assets/absen-qr.jpg)
+[Source & setup →](https://github.com/atmajadesna/stokara)
 
-Classroom attendance prototype with rotating HMAC-SHA256 codes and a local attendance register. A client-side demonstration, not a production anti-cheating system.
+*Backend prototype; follow the repository setup instructions to run locally.*
 
-[Try demo](https://atmajadesna.github.io/absen-qr/) · [Source and limitations](https://github.com/atmajadesna/absen-qr)
+### 02 / AtmajaCar
+**Booking workflows · JavaScript · HTML / CSS**
 
-### Patungan
+<img src="assets/atmajacar.jpg" width="100%" alt="AtmajaCar rental prototype interface" />
 
-Bill-splitting tool with proportional taxes and service charges, using largest-remainder allocation for rounding.
+A car-rental prototype with date-range availability, optional extras, itemized pricing, and local booking management.
 
-[Demo](https://atmajadesna.github.io/patungan/) · [Source](https://github.com/atmajadesna/patungan)
+**Engineering focus:** making availability and pricing rules understandable before a booking is confirmed.
 
-### Jadwal Kuliah
+[Live demo →](https://atmajadesna.github.io/atmajacar/) &nbsp; · &nbsp; [Source & limitations](https://github.com/atmajadesna/atmajacar)
 
-Weekly class scheduler with time and room conflict detection and credit totals.
+*Browser prototype. No real reservations or payments.*
 
-[Demo](https://atmajadesna.github.io/jadwal-kuliah/) · [Source](https://github.com/atmajadesna/jadwal-kuliah)
+### 03 / Patungan
+**Calculation logic · JavaScript**
 
-## More projects
+A bill splitter that allocates tax and service charges proportionally, using largest-remainder rounding to keep the final shares consistent with the bill total.
 
-- [Piksel](https://github.com/atmajadesna/piksel): browser pixel editor with history, mirroring, and PNG export.
-- [Waktu Sholat](https://github.com/atmajadesna/waktu-sholat): calculated prayer times, Qibla direction, and a digital tasbih. Check local authoritative schedules when using prayer-time estimates.
-- [SIMRS Atmaja](https://github.com/atmajadesna/simrs-atmaja): hospital outpatient workflow simulation; not for real patient data.
-- [Dheline Caffe](https://github.com/atmajadesna/dheline-caffe): fictional coffee-shop presentation with an interactive photo gallery.
-- [Stokara](https://github.com/atmajadesna/stokara): Laravel inventory and sales prototype with FIFO stock flows.
-- [Pinjam Sehat](https://github.com/atmajadesna/pinjam-sehat): Laravel loan-management prototype. Not financial advice or a claim of regulatory certification.
-- [Sistem Gadai](https://github.com/atmajadesna/sistem-gadai): Laravel pawn-management prototype.
-- [Solanapay](https://github.com/atmajadesna/solanapay): digital-wallet simulation; no real funds.
+**Engineering focus:** handling the small rounding differences that otherwise make totals disagree.
 
-## Tools I work with
+[Live demo →](https://atmajadesna.github.io/patungan/) &nbsp; · &nbsp; [Source](https://github.com/atmajadesna/patungan)
 
-PHP · Laravel · JavaScript · HTML · CSS · MySQL · SQLite · Git · Linux
+### 04 / Absen QR
+**Attendance workflows · JavaScript · HMAC-SHA256**
 
-## Working approach
+A classroom attendance prototype with rotating codes, a QR display, and a local attendance register.
 
-- Understand the workflow and calculation rules before changing the interface.
-- Check edge cases and compare results with independent calculations.
-- Test narrow screens, keyboard navigation, and meaningful error states.
-- Distinguish runnable demos from backend projects requiring local setup.
+**Engineering focus:** exploring time-limited attendance codes while clearly documenting the trust limits of a client-side implementation.
 
-## Contact
+[Live demo →](https://atmajadesna.github.io/absen-qr/) &nbsp; · &nbsp; [Source & limitations](https://github.com/atmajadesna/absen-qr)
 
-- Portfolio: [atmajadesna.github.io](https://atmajadesna.github.io)
-- Email: atmajadesna [at] gmail [dot] com
+*Learning prototype, not a production anti-cheating system.*
 
-Project scope, setup instructions, and known limitations are documented in each repository. These are learning projects and prototypes, not production or compliance certifications.
+---
+
+## Technical toolkit
+
+- **Backend & data** — PHP, Laravel, MySQL, SQLite
+- **Frontend** — JavaScript, HTML, CSS
+- **Development tools** — Git, Linux
+
+## How I approach a project
+
+- **Start with the rules.** Understand the workflow, data, and calculations before designing the interface.
+- **Make results explainable.** Prefer readable logic and itemized outputs over opaque totals.
+- **Check beyond the happy path.** Include edge cases, narrow screens, keyboard navigation, and useful error states in the review.
+- **Keep the scope honest.** Distinguish learning prototypes, runnable demos, and applications that need a backend setup.
+
+## More to explore
+
+- [Jadwal Kuliah](https://github.com/atmajadesna/jadwal-kuliah) — weekly scheduling with time-and-room conflict detection.
+- [Piksel](https://github.com/atmajadesna/piksel) — browser pixel editor with undo history, mirroring, and PNG export.
+
+---
+
+## Let's connect
+
+For project discussions and professional enquiries:
+
+**[Portfolio →](https://atmajadesna.github.io)** &nbsp; · &nbsp; **Email:** atmajadesna [at] gmail [dot] com
+
+<sub>Based in Surakarta, Indonesia. Project scope, setup instructions, and known limitations are documented in each repository.</sub>
