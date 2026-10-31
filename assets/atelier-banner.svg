@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="560" viewBox="0 0 1600 560" role="img" aria-labelledby="title desc">
+<title id="title">Atmaja Desna Adinata — Selected Works</title><desc id="desc">Luxury editorial identity in espresso, champagne, and soft rose. Web development, considered in every detail.</desc>
+<rect width="1600" height="560" fill="#211c1b"/>
+<rect x="24" y="24" width="1552" height="512" rx="2" fill="none" stroke="#75604c"/>
+<path d="M64 112H1536M64 447H1536" stroke="#59483c"/>
+<text x="66" y="83" font-family="Arial,sans-serif" font-size="15" letter-spacing="5" fill="#d5bc94">ATMAJADESNA</text>
+<text x="1534" y="83" text-anchor="end" font-family="Arial,sans-serif" font-size="13" letter-spacing="4" fill="#c4aaa5">WEB DEVELOPMENT / SELECTED WORKS</text>
+<text x="66" y="175" font-family="Bitstream Charter,Liberation Serif,serif" font-size="24" font-style="italic" fill="#d8b7ae">A thoughtful approach to the everyday.</text>
+<text x="61" y="263" font-family="Bitstream Charter,Liberation Serif,serif" font-size="76" letter-spacing="-2" fill="#f4eadd">Atmaja Desna</text>
+<text x="64" y="341" font-family="Bitstream Charter,Liberation Serif,serif" font-size="76" letter-spacing="-2" fill="#f4eadd">Adinata<tspan fill="#d8b7ae">.</tspan></text>
+<text x="68" y="399" font-family="Arial,sans-serif" font-size="19" fill="#c5b7a9">Clear interfaces. Traceable logic. Considered details.</text>
+<g transform="translate(1280 280)">
+<circle r="110" fill="none" stroke="#7d6550"/><circle r="101" fill="none" stroke="#44392f"/>
+<path d="M0 -127V-115M0 115V127M-127 0H-115M115 0H127" stroke="#c8ad85"/>
+<text x="-3" y="25" text-anchor="middle" font-family="Bitstream Charter,Liberation Serif,serif" font-size="85" letter-spacing="-12" fill="#d8bd94">AD</text>
+<path d="M-33 48H33" stroke="#aa8670"/>
+</g>
+<text x="67" y="493" font-family="Arial,sans-serif" font-size="13" letter-spacing="3" fill="#d5bc94">PHP / LARAVEL / JAVASCRIPT</text>
+<text x="1534" y="493" text-anchor="end" font-family="Arial,sans-serif" font-size="13" letter-spacing="3" fill="#c4aaa5">SURAKARTA, INDONESIA</text>
+</svg>

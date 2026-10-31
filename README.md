@@ -1,6 +1,8 @@
-<img src="assets/banner.svg" width="100%" alt="Atmaja Desna Adinata — Practical applications. Thoughtful engineering." />
+<a href="https://atmajadesna.github.io"><img src="assets/atelier-banner.png" width="100%" alt="Atmaja Desna Adinata — Web development. Clear interfaces, traceable logic, considered details." /></a>
 
-# Web development, grounded in real workflows.
+<p align="center"><sub>INFORMATICS STUDENT &nbsp; / &nbsp; WEB DEVELOPMENT &nbsp; / &nbsp; SURAKARTA</sub></p>
+
+## Useful software. Carefully considered.
 
 I'm **Atmaja Desna Adinata**, an Informatics student at **STMIK Amikom Surakarta**, Indonesia. I build web applications that turn everyday workflows into clear interfaces and traceable calculations.
 
@@ -9,6 +11,8 @@ My focus is **PHP / Laravel**, **JavaScript**, and **relational data** — from 
 **[Explore my portfolio →](https://atmajadesna.github.io)** &nbsp; · &nbsp; [Browse repositories](https://github.com/atmajadesna?tab=repositories)
 
 ---
+
+<img src="assets/selected-work.png" width="100%" alt="Selected work — A closer look at the logic behind the interface." />
 
 ## Selected work
 
@@ -57,6 +61,8 @@ A classroom attendance prototype with rotating codes, a QR display, and a local 
 *Learning prototype, not a production anti-cheating system.*
 
 ---
+
+<img src="assets/craft.png" width="100%" alt="Toolkit and approach — Practical tools. Deliberate decisions." />
 
 ## Technical toolkit
 
