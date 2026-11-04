@@ -1,4 +1,4 @@
-<a href="https://desna.laura.web.id"><img src="assets/desna-cover.png" width="100%" alt="Atmaja Desna — Clear interfaces. Logic you can follow. Web development, PHP and JavaScript, Surakarta." /></a>
+<a href="https://desna.laura.web.id"><img src="assets/desna-cover-v2.png" width="100%" alt="Atmaja Desna — Clear interfaces. Logic you can follow. Web development, PHP and JavaScript, Surakarta." /></a>
 
 # Atmaja Desna Adinata
 
@@ -10,7 +10,11 @@ I build web applications where the interface is clear and the rules behind it ca
 
 ---
 
-## Start here — four projects, four engineering problems
+<img src="assets/work-heading-v2.png" width="100%" alt="Selected work — The interface is only the beginning." />
+
+## Four projects. Four problems worth solving.
+
+**[01 · Lima Waktu](#01--lima-waktu)** · **[02 · Stokara](#02--stokara)** · **[03 · Patungan](#03--patungan)** · **[04 · Jejak](#04--jejak)**
 
 ### 01 / Lima Waktu
 **Location-aware scheduling · JavaScript · Progressive Web App**
