@@ -1,93 +1,94 @@
-<a href="https://atmajadesna.github.io"><img src="assets/atelier-banner.png" width="100%" alt="Atmaja Desna Adinata — Web development. Clear interfaces, traceable logic, considered details." /></a>
+<a href="https://desna.laura.web.id"><img src="assets/desna-cover.png" width="100%" alt="Atmaja Desna — Clear interfaces. Logic you can follow. Web development, PHP and JavaScript, Surakarta." /></a>
 
-<p align="center"><sub>INFORMATICS STUDENT &nbsp; / &nbsp; WEB DEVELOPMENT &nbsp; / &nbsp; SURAKARTA</sub></p>
+# Atmaja Desna Adinata
 
-## Useful software. Carefully considered.
+**Information Technology student · Web application development · Surakarta, Indonesia**
 
-I'm **Atmaja Desna Adinata**, an Informatics student at **STMIK Amikom Surakarta**, Indonesia. I build web applications that turn everyday workflows into clear interfaces and traceable calculations.
+I build web applications where the interface is clear and the rules behind it can be explained. My work explores **PHP / Laravel, JavaScript, and relational data** through practical problems: inventory costs, fair bill splitting, and location-aware prayer times.
 
-My focus is **PHP / Laravel**, **JavaScript**, and **relational data** — from inventory records to booking logic and financial calculations.
-
-**[Explore my portfolio →](https://atmajadesna.github.io)** &nbsp; · &nbsp; [Browse repositories](https://github.com/atmajadesna?tab=repositories)
+**[Explore my portfolio ↗](https://desna.laura.web.id)** · [Browse source code](https://github.com/atmajadesna?tab=repositories) · [Get in touch](#lets-connect)
 
 ---
 
-<img src="assets/selected-work.png" width="100%" alt="Selected work — A closer look at the logic behind the interface." />
+## Start here — four projects, four engineering problems
 
-## Selected work
+### 01 / Lima Waktu
+**Location-aware scheduling · JavaScript · Progressive Web App**
 
-### 01 / Stokara
-**Inventory & sales · Laravel · SQLite**
+<a href="https://atmajadesna.github.io/lima-waktu/"><img src="assets/lima-waktu.webp" width="100%" alt="Lima Waktu dashboard with prayer countdown, daily schedule and location controls" /></a>
 
-An inventory and sales ledger for small businesses, with batch stock tracking, FIFO cost allocation, and gross-profit calculations.
+Prayer times calculated on the device, with Qibla direction, configurable adhan reminders, monthly exports, and offline access.
 
-**Engineering focus:** connecting stock movements to cost allocation, so the calculation behind a sale can be followed rather than hidden behind a total.
+- **The challenge:** a selected city's prayer countdown must not change just because the device uses another timezone.
+- **The decision:** derive prayer timestamps from the location's calendar date and UTC offset; persist GPS coordinates and the selected zone across reloads.
+- **Verification:** browser regression tests cover GPS persistence, timezone invariance, prayer transitions, and offline reload. Tests are included in the repository.
+- **Scope:** calculated estimates, not official schedules. Reminders require an open page; installation does not guarantee background adhan.
 
-[Source & setup →](https://github.com/atmajadesna/stokara)
+**[Try the application ↗](https://atmajadesna.github.io/lima-waktu/)** · [Read the code & tests](https://github.com/atmajadesna/lima-waktu)
 
-*Backend prototype; follow the repository setup instructions to run locally.*
+### 02 / Stokara
+**Inventory & sales · Laravel · SQLite · Local backend prototype**
 
-### 02 / AtmajaCar
-**Booking workflows · JavaScript · HTML / CSS**
+A small-business inventory ledger connecting batch stock, sales, FIFO cost allocation, and gross profit.
 
-<img src="assets/atmajacar.jpg" width="100%" alt="AtmajaCar rental prototype interface" />
+- **The challenge:** a sale needs a traceable cost, not just a stock deduction and an unexplained profit figure.
+- **The decision:** connect stock movements to batch-based cost allocation, so the calculation behind a sale can be followed.
+- **Scope:** requires local backend setup; it is not presented as a publicly hosted business service.
 
-A car-rental prototype with date-range availability, optional extras, itemized pricing, and local booking management.
-
-**Engineering focus:** making availability and pricing rules understandable before a booking is confirmed.
-
-[Live demo →](https://atmajadesna.github.io/atmajacar/) &nbsp; · &nbsp; [Source & limitations](https://github.com/atmajadesna/atmajacar)
-
-*Browser prototype. No real reservations or payments.*
+**[Explore the implementation & setup ↗](https://github.com/atmajadesna/stokara)**
 
 ### 03 / Patungan
-**Calculation logic · JavaScript**
+**Financial calculation · JavaScript · Browser application**
 
-A bill splitter that allocates tax and service charges proportionally, using largest-remainder rounding to keep the final shares consistent with the bill total.
+A bill splitter that allocates tax and service charges proportionally.
 
-**Engineering focus:** handling the small rounding differences that otherwise make totals disagree.
+- **The challenge:** individually rounded shares can fail to add up to the original bill.
+- **The decision:** use largest-remainder rounding to distribute the remaining units while preserving the final total.
+- **Scope:** a calculation tool, not a payment processor.
 
-[Live demo →](https://atmajadesna.github.io/patungan/) &nbsp; · &nbsp; [Source](https://github.com/atmajadesna/patungan)
+**[Try the calculation ↗](https://atmajadesna.github.io/patungan/)** · [Inspect the rounding logic](https://github.com/atmajadesna/patungan)
 
-### 04 / Absen QR
-**Attendance workflows · JavaScript · HMAC-SHA256**
+### 04 / Jejak
+**Local calculation · JavaScript · Lightweight interface**
 
-A classroom attendance prototype with rotating codes, a QR display, and a local attendance register.
+<a href="https://atmajadesna.github.io/jejak-karbon/"><img src="assets/jejak.webp" width="100%" alt="Jejak daily carbon-footprint calculator with transport, electricity, diet and waste inputs" /></a>
 
-**Engineering focus:** exploring time-limited attendance codes while clearly documenting the trust limits of a client-side implementation.
+A daily carbon-footprint estimate across transport, electricity, food, and waste.
 
-[Live demo →](https://atmajadesna.github.io/absen-qr/) &nbsp; · &nbsp; [Source & limitations](https://github.com/atmajadesna/absen-qr)
+- **The challenge:** a single total does not show which everyday choice has the largest effect.
+- **The decision:** show a category breakdown and tie the suggested next step to the largest estimated source. Calculation stays on the device.
+- **Scope:** educational estimates using simplified factors, not a verified carbon audit.
 
-*Learning prototype, not a production anti-cheating system.*
+**[Try the calculator ↗](https://atmajadesna.github.io/jejak-karbon/)** · [Read assumptions & source](https://github.com/atmajadesna/jejak-karbon)
 
 ---
 
-<img src="assets/craft.png" width="100%" alt="Toolkit and approach — Practical tools. Deliberate decisions." />
-
-## Technical toolkit
+## Toolkit
 
 - **Backend & data** — PHP, Laravel, MySQL, SQLite
 - **Frontend** — JavaScript, HTML, CSS
-- **Development tools** — Git, Linux
+- **Tools & environment** — Git, Linux, VPS deployment
 
-## How I approach a project
+## What I want a reviewer to find in my code
 
-- **Start with the rules.** Understand the workflow, data, and calculations before designing the interface.
-- **Make results explainable.** Prefer readable logic and itemized outputs over opaque totals.
-- **Check beyond the happy path.** Include edge cases, narrow screens, keyboard navigation, and useful error states in the review.
-- **Keep the scope honest.** Distinguish learning prototypes, runnable demos, and applications that need a backend setup.
+- **Explainable rules.** Itemized calculations and readable decisions rather than opaque totals.
+- **Useful interfaces.** Layouts that work on narrow screens and controls with clear feedback.
+- **Checks that can be rerun.** Regression tests where available, plus setup instructions and documented assumptions.
+- **Honest boundaries.** A browser demo, a local backend prototype, and a deployed service are different things.
 
-## More to explore
+I am continuing to develop these skills through coursework and independent projects—not claiming production-scale experience.
 
-- [Jadwal Kuliah](https://github.com/atmajadesna/jadwal-kuliah) — weekly scheduling with time-and-room conflict detection.
-- [Piksel](https://github.com/atmajadesna/piksel) — browser pixel editor with undo history, mirroring, and PNG export.
+## More experiments
 
----
+- **[AtmajaCar](https://github.com/atmajadesna/atmajacar)** — date-range availability, itemized pricing, and local bookings. No real reservations or payments.
+- **[Absen QR](https://github.com/atmajadesna/absen-qr)** — rotating HMAC attendance codes; a learning prototype with explicit client-side trust limitations.
+- **[Jadwal Kuliah](https://github.com/atmajadesna/jadwal-kuliah)** — weekly scheduling with time-and-room conflict detection.
+- **[Piksel](https://github.com/atmajadesna/piksel)** — a browser pixel editor with undo history, mirroring, and PNG export.
 
 ## Let's connect
 
 For project discussions and professional enquiries:
 
-**[Portfolio →](https://atmajadesna.github.io)** &nbsp; · &nbsp; **Email:** atmajadesna [at] gmail [dot] com
+**[desna.laura.web.id ↗](https://desna.laura.web.id)** · **Email:** atmajadesna [at] gmail [dot] com
 
-<sub>Based in Surakarta, Indonesia. Project scope, setup instructions, and known limitations are documented in each repository.</sub>
+<sub>Based in Surakarta, Indonesia. Source, setup instructions, and limitations are linked above. No inflated titles, no fictional client work—just projects you can inspect.</sub>
